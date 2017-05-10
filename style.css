@@ -46,3 +46,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 h3 {
+  float: left;
+}
+header {
+  display: inline;
+}
+.fa {
+  float: right;
+  padding: .15em .25em 0em 0em;
+  font-size: 2em;
+  display: inline;
+}
+
+@media only screen and (min-width: 640px) {
+  .fa {
+    display: none;
+  }
+
+}
