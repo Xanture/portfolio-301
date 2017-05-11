@@ -1,0 +1,26 @@
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 h3 {
+  float: left;
+}
+header {
+  display: inline-block;
+	border: 2px solid red;
+}
+.fa {
+  float: right;
+  padding: .15em .25em 0em 0em;
+  font-size: 2em;
+  display: inline;
+}
+
+@media only screen and (min-width: 640px) {
+  .fa {
+    display: none;
+  }
+
+}
