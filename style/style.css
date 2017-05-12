@@ -3,12 +3,12 @@
   display: table;
   clear: both;
 }
-h1 h3 {
-  float: left;
+h1 {
+  font-size: 3em;
+  text-align: center;
 }
 header {
   display: inline-block;
-	border: 2px solid red;
 	width: 100%;
   background-color: black;
 }
@@ -20,13 +20,16 @@ header {
   display: inline;
   color: white;
 }
+main {
+  width: 100%;
+  background-image: url(http://i.imgur.com/OKU2ueD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .main-display {
 	width: 100%;
   height: 800px;
 	display: inline-block;
-  background-image: url(http://i.imgur.com/OKU2ueD.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .full-nav{
 	display: none;
