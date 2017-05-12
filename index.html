@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="https://use.fontawesome.com/2506d2b99f.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="scripts/web-view.js"></script>
+  <script src="https://use.fontawesome.com/2506d2b99f.js"></script>
   <link type="text/css" rel="stylesheet" href="style/style.css" />
   <link type="text/css" rel="stylesheet" href="style/reset.css" />
   <title>Life of Brian (WebDev)</title>
 </head>
 <body>
   <header class="clearfix">
-   <nav>
      <i class="fa fa-bars" class="hamberger" aria-hidden="true"></i>
+     <nav class="full-nav">
+      <div class="icons">
+        <ul>
+          <li><i class="fa fa-github-alt" aria-hidden="true"></i></li>
+          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+          <li><i class="fa fa-user-circle-o" aria-hidden="true"></i></li>
+          <li><i class="fa fa-home" aria-hidden="true"></i></li>
+      </div>
    </nav>
   </header>
-  <h1>Brian McFarlane</h1>
-  <h3>About Me</h3>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="scripts/app.js"></script>
+  <main>
+    <section id="stories" class="tabs">
+      <div class="main-display">
+        <h1>Brian McFarlane</h1>
+        <h3>About Me</h3>
+      </div>
+    </section>
+  </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/app.js"></script>
 </body>
 </html>
