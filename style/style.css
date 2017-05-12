@@ -23,7 +23,7 @@ header {
 main {
   width: 100%;
   background-image: url(http://i.imgur.com/OKU2ueD.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .main-display {
