@@ -6,7 +6,19 @@
   <script src="https://use.fontawesome.com/2506d2b99f.js"></script>
   <link type="text/css" rel="stylesheet" href="style/reset.css" />
   <link type="text/css" rel="stylesheet" href="style/style.css" />
+  <link type="text/css" rel="stylesheet" href="style/layout.css" />
+  <link type="text/css" rel="stylesheet" href="style/module.css" />
   <title>Life of Brian (WebDev)</title>
+  <script id="project-template" type="text/x-handlebars-template">
+    <section id='tab-content'>
+      <article class="template">
+        <h1>{{projectTitle}}</h1>
+        <p>{{projectlastUpdated}}</p>
+        <p>{{gitHubURL}}</p>
+        <p>{{projectDescription}}</p>
+      </article>
+    </section>
+  </script>
 </head>
 <body>
   <header class="clearfix">
@@ -14,10 +26,10 @@
      <nav class="full-nav">
       <div class="icons">
         <ul>
-          <li><i class="fa fa-github-alt" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-          <li><i class="fa fa-user-circle-o" aria-hidden="true"></i></li>
-          <li><i class="fa fa-home" aria-hidden="true"></i></li>
+          <a href="#" onClick="window.open('https://github.com/Xanture', '_blank')"><li><i class="fa fa-github-alt" aria-hidden="true"></i></li></a>
+          <a href="#" onClick="window.open('https://twitter.com/xanture', '_blank')"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+          <a href="index.html"><li><i class="fa fa-user-circle-o" aria-hidden="true"></i></li></a>
+          <a href="index.html"><li><i class="fa fa-home" aria-hidden="true"></i></li></a>
       </div>
    </nav>
   </header>
@@ -29,8 +41,10 @@
       </div>
     </section>
   </main>
+  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="scripts/app.js"></script>
 <script src="scripts/articles.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
 </body>
 </html>
