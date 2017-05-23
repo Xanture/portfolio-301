@@ -9,3 +9,10 @@ function Project (projectTitle, projectlastUpdated, gitHubURL, projectDescriptio
   this.projectDescription = projectDescription;
   projectList.push(this);
 }
+$(document).ready(function(){
+  $('.fa-bars').on('click', function() {
+    $('.full-nav').slideToggle('slow', function() {
+      
+    })
+  });
+})
