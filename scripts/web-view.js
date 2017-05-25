@@ -9,11 +9,11 @@
 //         a.style.backgroundPosition = "0px " + -(Math.max(e.scrollTop, a.scrollTop) / :sunglasses: + "px";
 //     });
 // })();
-$(document).ready(function(){
-  $('.fa-bars').on('click', function() {
-    $('.full-nav').slideToggle('slow', function() {
+  $(document).ready(function(){
+    $('.fa-bars').on('click', function() {
+      $('.full-nav').slideToggle('slow', function() {
 
-    })
-  });
-})
+      })
+    });
+  })
 })();
