@@ -15,11 +15,11 @@ Project.prototype.toHtml = function() {
 };
 
 Project.loadAll = function(projectData) {
-  projectData.forEach(function(projectObject) {
+  projectData.map(function(projectObject) {
     projects.push(new Project(projectObject));
   });
 
-  projects.forEach(function(project) {
+  projects.map(function(project) {
     $('#project-div').append(project.toHtml());
   });
 }
