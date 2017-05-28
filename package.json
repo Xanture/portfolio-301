@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "portfolio-301",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "express-request-proxy": "^2.0.0",
+    "pg": "^6.2.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
