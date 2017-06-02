@@ -50,3 +50,8 @@ main {
 	}
 
 }
+@@media only screen and (max-width: 641px) {
+  .full-nav {
+    display: inline;
+  }
+}
